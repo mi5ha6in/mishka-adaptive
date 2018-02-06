@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTML Academy: Мишка</title>
+  </head>
+
+  <body>
+
+    <header class="page-header">
+
+      <nav class="main-navigation">
+
+        <a class="logo">
+          <img class="logo__image"
+            src="http://dummyimage.com/86x35.png/99cccc/aa00aa&text=Логотип!"
+            width="86"
+            height="35"
+            alt="Мишка"
+          >
+        </a>
+
+        <button class="main-navigation__toggle" type="button" title="Открыть/закрыть меню">
+          <span class="visually-hidden">Открыть/закрыть меню</span>
+        </button>
+
+        <ul class="main-navigation__list">
+
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="#">
+              Каталог товаров
+            </a>
+          </li>
+
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="#">
+              Вязание на заказ
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="main-navigation__list main-navigation__list--user-navigation">
+
+          <li class="main-navigation__item main-navigation__item--search">
+            <a class="main-navigation__link" href="#">
+              Поиск по сайту
+            </a>
+          </li>
+
+          <li class="main-navigation__item main-navigation__item--cart">
+            <a class="main-navigation__link" href="#">
+              Корзина: пока пуста
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+
+    <main class="page-main">
+
+      <section class="catalog">
+
+        <h1 class="page-main__title">
+          Каталог товаров
+        </h1>
+
+        <article class="catalog__item product">
+
+          <a class="product__image">
+            <img
+              src="http://dummyimage.com/260x195.png/99cccc/aa00aa&text=Картинка+товара!"
+              alt="Зайчик-попрыгайчик"
+              width="260"
+              height="195"
+            >
+          </a>
+
+          <div class="product__text-information">
+
+            <h2 class="product__title">
+              Зайчик-попрыгайчик
+            </h2>
+
+            <p class="product__description">
+              Рост 30 см, вес 200 г
+            </p>
+
+          </div>
+
+          <div class="product__order">
+
+            <b class="product__price">1 200 руб.</b>
+
+            <button class="product__button">
+              <span class="visually-hidden">
+                Заказать
+              </span>
+            </button>
+
+          </div>
+
+        </article>
+
+        <article class="catalog__item product">
+
+          <a class="product__image">
+            <img
+              src="http://dummyimage.com/260x195.png/99cccc/aa00aa&text=Картинка+товара!"
+              alt="Корзинка для белья"
+              width="260"
+              height="195"
+            >
+          </a>
+
+          <div class="product__text-information">
+
+            <h2 class="product__title">
+              Корзинка для белья
+            </h2>
+
+            <p class="product__description">
+              Диаметр 15 см, высота 10 см
+            </p>
+
+          </div>
+
+          <div class="product__order">
+
+            <b class="product__price">690 руб.</b>
+
+            <button class="product__button">
+              <span class="visually-hidden">
+                Заказать
+              </span>
+            </button>
+
+          </div>
+
+        </article>
+
+        <article class="catalog__item product">
+
+          <a class="product__image">
+            <img
+              src="http://dummyimage.com/260x195.png/99cccc/aa00aa&text=Картинка+товара!"
+              alt="Большая корзинка для игрушек"
+              width="260"
+              height="195"
+            >
+          </a>
+
+          <div class="product__text-information">
+
+            <h2 class="product__title">
+              Большая корзинка для игрушек
+            </h2>
+
+            <p class="product__description">
+              Диаметр 30 см, высота 30 см
+            </p>
+
+          </div>
+
+          <div class="product__order">
+
+            <b class="product__price">1 500 руб.</b>
+
+            <button class="product__button">
+              <span class="visually-hidden">
+                Заказать
+              </span>
+            </button>
+
+          </div>
+
+        </article>
+
+      </section>
+
+      <section class="production-process">
+
+        <h2 class="production-process__title">
+          Процесс производства
+        </h2>
+
+        <div class="production-process__video video">
+          <button class="video__toggle">
+            <span class="visually-hidden">
+              Старт/стоп видео.
+            </span>
+          </button>
+        </div>
+
+        <p class="production-process__description">
+          По просьбам наших любимых фолловеров мы сняли для
+          вас подробное видео о том, как появляются наши
+          товары.
+        </p>
+
+        <a class="production-process__button button" href="#">
+          Сделать заказ
+        </a>
+
+      </section>
+
+    </main>
+
+    <footer class="page-footer">
+
+      <div class="page-footer__social social">
+        <ul class="social__list">
+
+          <li class="social__item">
+            <a class="social__link social__link--instagram" href="#">
+              <span class="visually-hidden">Instagram</span>
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="#">
+              <span class="visually-hidden">Facebook</span>
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="#">
+              <span class="visually-hidden">Twitter</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="page-footer__copyright copyright">
+
+        <b class="copyright__text">Разработано</b>
+
+        <a href="#" class="copyright__link">
+          <span class="visually-hidden">HTML Academy</span>
+        </a>
+
+      </div>
+
+    </footer>
+
+  </body>
+
+</html>
