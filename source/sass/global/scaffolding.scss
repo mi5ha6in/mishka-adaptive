@@ -9,9 +9,10 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   min-width: $mobile-width;
+  width: $mobile-width;
   font-family: $main-font-family;
   font-size: $main-font-size;
   line-height: $line-height;
