@@ -3,6 +3,7 @@
   font-weight: $font-weight-bold;
   line-height: $main-fz - 1;
 }
+
 .page-footer__social {
   @include centerer();
 }
