@@ -1,0 +1,32 @@
+.product-of-week {
+  @include centerer();
+  padding-top: 33px;
+}
+
+.product-of-week__title {
+  @include section-title();
+}
+
+.product-of-week__hit {
+  color: $turquoise;
+  font-size: $fz-middle;
+  font-weight: $font-weight-bold;
+  line-height: $line-height--middle;
+}
+
+.product-of-week__description {
+  margin: 0;
+  padding: 0;
+}
+
+.product-of-week__order {
+  text-align: center;
+}
+
+.product-of-week__price {
+  display: block;
+  text-align: center;
+  font-size: $fz-middle;
+  font-weight: $font-weight-bold;
+  line-height: $line-height;
+}
