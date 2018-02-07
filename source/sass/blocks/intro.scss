@@ -13,8 +13,7 @@
 .intro__list {
   @include reset-list();
 }
-.intro__item {
-}
+
 .intro__link {
   display: block;
   font-size: $main-font-size + 4;
