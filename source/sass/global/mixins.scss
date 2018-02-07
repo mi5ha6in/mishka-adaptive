@@ -3,3 +3,13 @@
   margin: 0;
   padding: 0;
 }
+
+@mixin main-title() {
+  margin: 0 auto;
+  padding: 0;
+  width: 260px;
+  font-size: 27px;
+  font-weight: $font-weight-bold;
+  line-height: $line-height--big;
+  text-align: center;
+}
