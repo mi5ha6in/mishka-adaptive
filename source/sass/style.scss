@@ -1,4 +1,7 @@
 // Порядок подключенных файлов из папки global НЕ менять.
 @import "global/variables.scss";
+@import "global/mixins.scss";
 @import "global/fonts.scss";
 @import "global/scaffolding.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-navigation.scss";

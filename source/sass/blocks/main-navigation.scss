@@ -1,0 +1,17 @@
+.main-navigation {
+  color: $black;
+  font-size: $font-size-middle;
+  font-weight: $font-weight-bold;
+  line-height: $line-height;
+}
+.main-navigation__toggle {
+}
+.main-navigation__list {
+  @include reset-list();
+}
+.main-navigation__item {
+}
+.main-navigation__link {
+  color: $black;
+  text-decoration: none;
+}
