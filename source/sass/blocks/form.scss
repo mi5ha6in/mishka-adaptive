@@ -1,0 +1,31 @@
+.form__group {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__legend {
+  font-size: $fz-middle;
+  font-weight: $font-weight-bold;
+  line-height: $fz-middle - 1;
+  color: $turquoise;
+}
+
+.form__label {
+  display: block;
+}
+
+.form__label-text {
+  font-size: $fz-middle;
+  font-weight: $font-weight-bold;
+  line-height: $fz-middle + 1;
+}
+
+.form__input-text::placeholder,
+.form__textarea::placeholder {
+  font-family: $main-font-family;
+  font-size: $fz-middle;
+  line-height: $fz-middle + 1;
+  color: $grey;
+  opacity: 0.3;
+}

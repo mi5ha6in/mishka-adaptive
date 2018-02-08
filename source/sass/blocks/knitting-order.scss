@@ -1,0 +1,8 @@
+.knitting-order__description {
+  @include centerer();
+  font-size: $fz-small;
+}
+
+.knitting-order__form {
+  @include centerer();
+}
