@@ -1,0 +1,21 @@
+.product__text-information,
+.product__order {
+  margin-left: 28px;
+}
+
+.product__title {
+  font-size: $fz-middle;
+  font-weight: $font-weight-bold;
+  line-height: $line-height;
+}
+
+.product__description {
+  font-size: $fz-small;
+  line-height: $line-height--big;
+}
+
+.product__price {
+  font-size: $main-fz;
+  font-weight: $font-weight-bold;
+  line-height: $line-height;
+}
