@@ -1,0 +1,13 @@
+.reviews {
+  @include centerer();
+}
+
+.reviews__title {
+  @include section-title();
+}
+
+.reviews__text {
+  margin: 0;
+  padding: 0;
+  line-height: $line-height--big;
+}

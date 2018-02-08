@@ -1,0 +1,18 @@
+.about-us {
+  @include centerer();
+  font-size: $fz-middle;
+  font-weight: $font-weight-bold;
+  line-height: $line-height--middle;
+}
+
+.about-us__title {
+  @include section-title();
+}
+
+.about-us__list {
+  @include reset-list();
+}
+
+.about-us__item {
+  padding-top: 60px;
+}

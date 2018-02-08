@@ -1,0 +1,14 @@
+.contacts {
+  @include centerer();
+}
+
+.contacts__title {
+  @include section-title();
+  font-size: $main-fz + 3;
+}
+
+.contacts__value a {
+  color: $grey;
+  text-decoration: none;
+  border-bottom: 1px solid $turquoise--lighter;
+}

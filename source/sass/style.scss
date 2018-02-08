@@ -1,0 +1,23 @@
+// Порядок подключенных файлов из папки global НЕ менять.
+@import "global/variables.scss";
+@import "global/mixins.scss";
+@import "global/fonts.scss";
+@import "global/scaffolding.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-navigation.scss";
+@import "blocks/page-main.scss";
+@import "blocks/intro.scss";
+@import "blocks/product-of-week.scss";
+@import "blocks/button.scss";
+@import "blocks/about-us.scss";
+@import "blocks/reviews.scss";
+@import "blocks/contacts.scss";
+@import "blocks/catalog.scss";
+@import "blocks/product.scss";
+@import "blocks/production-process.scss";
+@import "blocks/video.scss";
+@import "blocks/knitting-order.scss";
+@import "blocks/form.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/social.scss";
+@import "blocks/copyright.scss";

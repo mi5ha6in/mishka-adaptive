@@ -1,0 +1,23 @@
+.intro {
+  padding-top: 75px;
+  background-image: url("../img/hero-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.intro__title {
+  @include main-title();
+  padding-bottom: 120px;
+}
+
+.intro__list {
+  @include reset-list();
+}
+
+.intro__link {
+  display: block;
+  font-size: $main-fz + 4;
+  color: $white;
+  text-decoration: none;
+  background-color: $turquoise;
+}

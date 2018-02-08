@@ -1,0 +1,15 @@
+.page-main__title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 176px;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 8px;
+  text-align: center;
+  font-size: $fz-main-title;
+  font-weight: $font-weight-bold;
+  line-height: $line-height--big;
+  background-color: $grey--lighter;
+}

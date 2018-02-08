@@ -1,0 +1,15 @@
+.production-process {
+  @include centerer ();
+}
+
+.production-process__title {
+  padding-left: 59px;
+  font-size: $fz-middle;
+  font-weight: $font-weight-bold;
+  line-height: $line-height;
+}
+
+.production-process__description {
+  margin: 0;
+  font-size: $fz-small;
+}
