@@ -1,12 +1,16 @@
 $mobile-width: 320px;
 $width-container--mobile: 260px;
+
 $main-font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+
 $font-weight-normal: 400;
 $font-weight-bold: 700;
+
 $main-fz: 15px;
+$fz-small: 13px;
 $fz-middle: 17px;
 $fz-section-title: 25px;
-
+$fz-main-title: 27px;
 
 $line-height: $main-fz * 1.6; //24px
 $line-height--big: $main-fz * 2; //30px
@@ -14,6 +18,7 @@ $line-height--middle: $main-fz * 1.333333; //20px
 
 $black: #000000;
 $grey: #444444;
+$grey--lighter: #f1f1f1;
 $white: #ffffff;
 $turquoise: #63d1bb;
 $turquoise--lighter: #62d1ba;
