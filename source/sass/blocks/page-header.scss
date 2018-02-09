@@ -1,3 +1,10 @@
 .page-header {
   color: $black;
 }
+
+.page-header__logo {
+  padding-top: 21px;
+  padding-bottom: 22px;
+  border-top: 1px solid $grey--border;
+  border-bottom: 1px solid $grey--border;
+}

@@ -1,10 +1,16 @@
 .main-navigation {
+  position: relative;
   color: $black;
   font-size: $fz-middle;
   font-weight: $font-weight-bold;
   line-height: $line-height;
 }
 
+.main-navigation__toggle {
+  position: absolute;
+  top: 29px;
+  right: 30px;
+}
 .main-navigation__list {
   @include reset-list();
 }
