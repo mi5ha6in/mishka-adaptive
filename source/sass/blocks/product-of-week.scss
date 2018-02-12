@@ -14,7 +14,7 @@
   line-height: $line-height--middle;
 }
 
-.product-of-week__description {
+.product-of-week__text {
   margin: 0;
   padding: 0;
 }
@@ -29,4 +29,36 @@
   font-size: $fz-middle;
   font-weight: $font-weight-bold;
   line-height: $line-height;
+}
+
+@media (min-width: $tablet-width) {
+  .product-of-week {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .product-of-week__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .product-of-week__title {
+    margin: 0;
+  }
+  .product-of-week__description {
+    width: 50%;
+  }
+
+  .product-of-week__order {
+    width: 50%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product-of-week__title {
+    order: 1;
+  }
 }
