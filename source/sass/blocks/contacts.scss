@@ -12,3 +12,28 @@
   text-decoration: none;
   border-bottom: 1px solid $turquoise--lighter;
 }
+
+@media (min-width: $tablet-width) {
+  .contacts__tabel tbody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .contacts__title {
+    width: 50%;
+    margin: 0;
+  }
+
+  .contacts__tabel {
+    width: 50%;
+  }
+}
