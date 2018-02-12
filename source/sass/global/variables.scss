@@ -14,12 +14,19 @@ $font-weight-bold: 700;
 $main-fz: 15px;
 $fz-small: 13px;
 $fz-middle: 17px;
+
 $fz-section-title: 25px;
+$fz-section-title--tablet: 43px;
+$fz-section-title--desktop: 53px;
 $fz-main-title: 27px;
 
 $line-height: $main-fz * 1.6; //24px
 $line-height--big: $main-fz * 2; //30px
 $line-height--middle: $main-fz * 1.333333; //20px
+
+$lh-section-title: $fz-section-title * 1.2; //30px
+$lh-section-title--tablet: floor($fz-section-title--tablet * 1.1627907); //50px
+$lh-section-title--desktop: floor($fz-section-title--desktop * 1.0754717); //57px
 
 $black: #000000;
 $grey: #444444;

@@ -48,4 +48,14 @@
   font-size: $fz-section-title;
   font-weight: $font-weight-bold;
   line-height: $line-height--big;
+
+  @media (min-width: $tablet-width) {
+    font-size: $fz-section-title--tablet;
+    line-height: $lh-section-title--tablet;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: $fz-section-title--desktop;
+    line-height: $lh-section-title--desktop;
+  }
 }
