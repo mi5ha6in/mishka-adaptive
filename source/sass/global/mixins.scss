@@ -21,14 +21,14 @@
   margin: 0 auto;
   padding: 0;
   width: 260px;
-  font-size: 27px;
+  font-size: $fz-main-title;
   font-weight: $font-weight-bold;
   line-height: $line-height--big;
   text-align: center;
 
   @media (min-width: $tablet-width) {
-    font-size: 43px;
-    line-height: 50px;
+    font-size: $fz-section-title--tablet;
+    line-height: $lh-section-title--tablet;
     width: 668px;
 
     br {
@@ -37,8 +37,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    font-size: 53px;
-    line-height: 57px;
+    font-size: $fz-section-title--desktop;
+    line-height: $lh-section-title--desktop;
   }
 }
 
