@@ -1,4 +1,5 @@
 .page-main__title {
+  @include main-title();
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -9,7 +10,11 @@
   padding: 8px;
   text-align: center;
   font-size: $fz-main-title;
-  font-weight: $font-weight-bold;
-  line-height: $line-height--big;
   background-color: $grey--lighter;
+}
+
+@media (min-width: $tablet-width) {
+  .page-main__title {
+    width: 100%;
+  }
 }
