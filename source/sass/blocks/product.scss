@@ -1,5 +1,4 @@
-.product__text-information,
-.product__order {
+.product__information {
   margin-left: 28px;
 }
 
@@ -18,4 +17,33 @@
   font-size: $main-fz;
   font-weight: $font-weight-bold;
   line-height: $line-height;
+}
+
+@media (min-width: $tablet-width) {
+  .product {
+    display: flex;
+  }
+
+  .product__information {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .product__order {
+    margin-top: auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .product {
+    flex-direction: column;
+    margin: 0;
+  }
 }
