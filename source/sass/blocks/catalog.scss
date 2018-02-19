@@ -1,3 +1,9 @@
-.catalog__item {
+.catalog {
   @include centerer();
+}
+
+@media (min-width: $desktop-width) {
+  .catalog__item {
+    width: 316px;
+  }
 }

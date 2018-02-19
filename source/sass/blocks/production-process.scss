@@ -13,3 +13,42 @@
   margin: 0;
   font-size: $fz-small;
 }
+
+@media (min-width: $tablet-width) {
+  .production-process {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .production-process__title {
+    order: 1;
+  }
+
+  .production-process__button {
+    order: 1;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .production-process {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .production-process__title {
+    order: 0;
+  }
+
+  .production-process__video {
+    width: 682px;
+    order: -1;
+  }
+
+  .production-process__description {
+    width: 350px;
+  }
+
+  .production-process__button {
+    order: 0;
+  }
+}

@@ -18,7 +18,7 @@
 
       <nav class="main-navigation">
 
-        <a class="logo">
+        <a class="page-header__logo logo">
           <img class="logo__image"
             src="img/logo-mobile.svg"
             width="86"
@@ -31,7 +31,7 @@
           <span class="visually-hidden">Открыть/закрыть меню</span>
         </button>
 
-        <ul class="main-navigation__list">
+        <ul class="main-navigation__list main-navigation__list--site-navigation">
 
           <li class="main-navigation__item">
             <a class="main-navigation__link" href="catalog.html">
@@ -62,6 +62,26 @@
           </li>
 
         </ul>
+
+        <ul class="main-navigation__list main-navigation__list--additional-navigation">
+
+          <li class="main-navigation__item">
+            <a class="main-navigation__link main-navigation__link--small" href="#">
+              Новые поступления
+            </a>
+          </li>
+
+          <li class="main-navigation__item">
+            <a class="main-navigation__link main-navigation__link--small" href="#">
+              Распродажа
+            </a>
+          </li>
+
+        </ul>
+
+        <a class="main-navigation__delivery" href="#">
+          Бесплатная доставка по России
+        </a>
 
       </nav>
 
@@ -97,60 +117,67 @@
 
       <article class="product-of-week">
 
-        <h2 class="product-of-week__title">
-          Вязаные корзинки
-        </h2>
+        <header class="product-of-week__header">
 
-        <b class="product-of-week__hit">
-          Товар недели
-        </b>
+          <h2 class="product-of-week__title">
+            Вязаные корзинки
+          </h2>
 
-        <p class="product-of-week__description">
-          Экологически чистая пряжа, ручная работа.
-          Доступны в шести расцветках, и трех размерах.
-        </p>
+          <b class="product-of-week__hit">
+            Товар недели
+          </b>
 
-        <table class="product-of-week__table">
-          <tbody>
+        </header>
 
-            <tr>
+        <div class="product-of-week__description">
 
-              <td class="product-of-week__key">
-                Цвет:
-              </td>
+          <p class="product-of-week__text">
+            Экологически чистая пряжа, ручная работа.
+            Доступны в шести расцветках, и трех размерах.
+          </p>
 
-              <td class="product-of-week__value">
-                «Тиффани»/серый
-              </td>
+          <table class="product-of-week__table">
+            <tbody>
 
-            </tr>
+              <tr>
 
-            <tr>
+                <td class="product-of-week__key">
+                  Цвет:
+                </td>
 
-              <td class="product-of-week__key">
-                Диаметр:
-              </td>
+                <td class="product-of-week__value">
+                  «Тиффани»/серый
+                </td>
 
-              <td class="product-of-week__value">
-                25 см
-              </td>
+              </tr>
 
-            </tr>
+              <tr>
 
-            <tr>
+                <td class="product-of-week__key">
+                  Диаметр:
+                </td>
 
-              <td class="product-of-week__key">
-                Высота:
-              </td>
+                <td class="product-of-week__value">
+                  25 см
+                </td>
 
-              <td class="product-of-week__value">
-                15 см
-              </td>
+              </tr>
 
-            </tr>
+              <tr>
 
-          </tbody>
-        </table>
+                <td class="product-of-week__key">
+                  Высота:
+                </td>
+
+                <td class="product-of-week__value">
+                  15 см
+                </td>
+
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
 
         <img
           class="product-of-week__image"
@@ -178,7 +205,7 @@
           Коротко о нас
         </h2>
 
-        <ul class="about-us__list">
+        <ul class="about-us__list about-us__list--left">
 
           <li class="about-us__item">
             Экологически чистые материалы
@@ -193,9 +220,12 @@
             на фотографиях
           </li>
 
+        </ul>
+
+        <ul class="about-us__list about-us__list--right">
+
           <li class="about-us__item">
-            Связано вручную с
-            любовью и умилением
+            Связано вручную с любовью и умилением
           </li>
 
           <li class="about-us__item">
@@ -203,8 +233,7 @@
           </li>
 
           <li class="about-us__item">
-            Поставляется в
-            подарочной упаковке
+            Поставляется в подарочной упаковке
           </li>
 
         </ul>
@@ -273,46 +302,50 @@
           Контакты
         </h2>
 
-        <table class="contacts__tabel">
-          <tbody>
+        <div class="contacts__wrapper">
 
-            <tr>
+          <table class="contacts__tabel">
+            <tbody>
 
-              <td class="contacts__key">
-                e-mail:
-              </td>
+              <tr>
 
-              <td class="contacts__value">
-                <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
-              </td>
+                <td class="contacts__key">
+                  e-mail:
+                </td>
 
-            </tr>
+                <td class="contacts__value">
+                  <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+                </td>
 
-            <tr>
+              </tr>
 
-              <td class="contacts__key">
-                адрес:
-              </td>
+              <tr>
 
-              <td class="contacts__value">
-                г. Санкт-Петербург,
-                ул. Большая Конюшенная,
-                д. 19/8, офис 101
-              </td>
+                <td class="contacts__key">
+                  адрес:
+                </td>
 
-            </tr>
+                <td class="contacts__value">
+                  г. Санкт-Петербург,
+                  ул. Большая Конюшенная,
+                  д. 19/8, офис 101
+                </td>
 
-          </tbody>
-        </table>
+              </tr>
 
-        <div class="contacts__map">
-          <img
-            class="contacts__map-image"
-            width="322"
-            height="457"
-            src="img/map-mobile@1x.jpg"
-            alt="Адрес магазина Мишка на карте: г. Санкт-Петербург, ул.Большая Конюшенная, д.19/8, офис 101"
-          >
+            </tbody>
+          </table>
+
+          <div class="contacts__map">
+            <img
+              class="contacts__map-image"
+              width="322"
+              height="457"
+              src="img/map-mobile@1x.jpg"
+              alt="Адрес магазина Мишка на карте: г. Санкт-Петербург, ул.Большая Конюшенная, д.19/8, офис 101"
+            >
+          </div>
+
         </div>
 
         <button class="contacts__button button">
